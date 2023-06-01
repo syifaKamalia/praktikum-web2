@@ -29,6 +29,7 @@
                         <th>NIM</th>
                         <th>Nama</th>
                         <th>Alamat</th>
+                        <th>Jenis Kelamin</th>
                         <th>Email</th>
                         <th>Telepon</th>
                         <th>Aksi</th>
@@ -51,6 +52,7 @@
                             <td><?php echo $data['nim']; ?></td>
                             <td><?php echo $data['nama']; ?></td>
                             <td><?php echo $data['alamat']; ?></td>
+                            <td><?php echo $data['jenis_kelamin']; ?></td>
                             <td><?php echo $data['email']; ?></td>
                             <td><?php echo $data['telepon']; ?></td>
                             <td>
